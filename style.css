@@ -45,3 +45,42 @@ input[type=text]{
     color:red;
     opacity: 1;
 }
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    padding: 20px;
+
+}
+
+header h1 {
+    color: #01181a
+}
+
+fieldset, form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-repeat: no-repeat;
+    text-align: center;
+   
+}
+@media screen and (min-width: 768px) {
+
+header, p, h1, h2 {
+    height: 600px;
+    height: 60vh;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+fieldset, form {
+   flex-direction: row;
+   width: 70%;
+}
+    
+}
