@@ -76,9 +76,10 @@ header, p, h1, h2, label {
     height: 60vh;
     justify-content: center;
     flex-wrap: wrap;
+    width: 70%;
 }
 
-fieldset, form {
+#formulario, form {
    flex-direction: row;
    width: 70%;
 }
