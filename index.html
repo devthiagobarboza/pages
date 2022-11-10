@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt_br">
+    <script type="text/javascript" src="calcular.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calcule suas chances de passar =)</title>
+</head>
+<body>
+    <h1>Cálculo de média - IBMR</h1>
+    <h2>Página para te aliviar do desespero... ou não!</h2>
+    <p>Informe suas notas a seguir e o sistema te responderá sua situação. 
+        Acredite, você irá conseguir!</p>
+    
+    <div id="area">
+        <form id="formulario" method="post">
+            <fieldset>
+        <p>
+            <label>N1: 
+                <input type="text" id="n1" value="" size="10" placeholder="Nota da N1 ">
+             </label>
+        </p>
+       
+        <p>
+            <label>N2:
+                <input type="text" id="n2" value="" size="10" placeholder="Nota da N2">
+            </label>
+        </p>
+        <p>
+            <label>Sua média final é: <input type="text" id="resultado" size = "5" value="" readonly></label>
+        </p>
+        <p>
+            <input type="text" id="txtmedia" value="" size="50">
+        </p>
+        <p>
+            <input type="text" id="txtchances" value="" size="50">
+        </p>
+        <p>
+            <input type="button" onclick="calcularMediaPonderada();" value="Enviar">
+            <input type="button" value="Reiniciar" onclick="window.location.reload()">
+        </p>
+    </fieldset>
+    </form>
+    </div>
+</body>
+</html>
