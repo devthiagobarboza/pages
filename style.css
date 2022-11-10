@@ -71,7 +71,7 @@ fieldset, form {
 }
 @media screen and (min-width: 768px) {
 
-header, p, h1, h2 {
+header, p, h1, h2, label {
     height: 600px;
     height: 60vh;
     justify-content: center;
