@@ -53,17 +53,23 @@ body {
     border: 5px solid black;
   }
 
-@media only screen and (max-device-width: 900px){
+@media screen and (max-width: 600px){
     body {
        width: 100%;
        justify-content: center;
       
     }
-    header, h1, fieldset, #formulario, #txtmedia, #resultado, #txtchances, #area, #field, #legenda {
+    header, h1, #formulario, #txtmedia, #resultado, #txtchances, #area {
         justify-content: center;
         width: 100%;
 
         
+      }
+      fieldset, #formulario {
+        display: inline;
+          width: auto;
+          float: left;
+          background-color: rgb(188, 188, 188);
       }
     html {
         width: 100%;
