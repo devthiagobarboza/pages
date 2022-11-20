@@ -15,36 +15,22 @@
     <h2>Página para te aliviar do desespero... ou não!</h2></p>
     <p>Informe suas notas a seguir e o sistema te responderá sua situação. 
         Acredite, você irá conseguir!</p>
+    </header>
+
     <div id="area">
-        <form method="post">
-            <fieldset id="formulario">
-        <p>
-            <label>N1: 
-                <input type="text" id="n1" value="" size="10" placeholder="Nota da N1 ">
-             </label>
-        </p>
-       
-        <p>
-            <label>N2:
-                <input type="text" id="n2" value="" size="10" placeholder="Nota da N2">
-            </label>
-        </p>
-        <p>
-            <label>Sua média final é: <input type="text" id="resultado" size = "5" value="" readonly></label>
-        </p>
-        <p>
-            <input type="text" id="txtmedia" value="" size="50">
-        </p>
-        <p>
-            <input type="text" id="txtchances" value="" size="50">
-        </p>
-        <p>
+        <form id="formulario">
+            <fieldset>
+                <legend>Calcule sua média</legend>
+            <label>N1:</label> <input type="text" id="n1" value="" size="10" placeholder="Nota da N1 "><br>
+            <label>N2:</label><input type="text" id="n2" value="" size="10" placeholder="Nota da N2 "><br>
+            <label>Sua média final é: </label><input type="text" id="resultado" size = "5" value="" readonly><br>
+            <input type="text" id="txtmedia" value="" size="50"><br>
+            <input type="text" id="txtchances" value="" size="50"><br>
+            <img class="img" id="validaimagem" src=""><br><br>
             <input type="button" onclick="calcularMediaPonderada();" value="Enviar">
             <input type="button" value="Reiniciar" onclick="window.location.reload()">
-        </p>
-    </fieldset>
+            
     </form>
-    </div>
-    </header>
+</div>
 </body>
 </html>
