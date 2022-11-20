@@ -44,7 +44,18 @@ h1 {
 body {
     width: 600px;
     margin: 0 auto;
-    background: linear-gradient(90deg, rgba(255,3,234,1) 0%, rgba(0,179,28,1));
+    background: linear-gradient(90deg, rgb(121, 3, 255) 0%, rgba(0,179,28,1));
     padding: 0 0px 0px 0px;
     border: 5px solid black;
+  }
+
+@media only screen and (max-width: 768px){
+    body {
+       width: auto;
+      
+    }
+    header, h1, #formulario, #txtmedia, #resultado, #txtchances, #area, #field, #legenda {
+        width: auto;
+        
+      }
   }
